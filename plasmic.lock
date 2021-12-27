@@ -3227,14 +3227,14 @@
           "checksum": "9b4c16e575b1ba01bee58dce51b9cf6b"
         },
         {
-          "assetId": "pGUwLaFPdGtokmdZ3W7Ccj",
-          "type": "projectCss",
-          "checksum": "6016cdb41e8496e0c5934b547c1c4962"
-        },
-        {
           "type": "image",
           "assetId": "uRPuM8S2q",
           "checksum": "1e708c9ce71c653d37184970853bef26"
+        },
+        {
+          "assetId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "type": "projectCss",
+          "checksum": "6016cdb41e8496e0c5934b547c1c4962"
         }
       ]
     }
