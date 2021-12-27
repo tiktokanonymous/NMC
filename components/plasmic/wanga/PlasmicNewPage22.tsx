@@ -71,8 +71,8 @@ function PlasmicNewPage22__RenderFunc(props: {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
-        <title key="title">{"498935"}</title>
-        <meta key="og:title" property="og:title" content={"498935"} />
+        <title key="title">{"499080"}</title>
+        <meta key="og:title" property="og:title" content={"499080"} />
       </Head>
 
       <style>{`
@@ -106,7 +106,7 @@ function PlasmicNewPage22__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_498935Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_4990801Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
