@@ -55,7 +55,7 @@ export type PlasmicNewPage11__OverridesType = {
 };
 
 export interface DefaultNewPage11Props {
-  dataFetches: PlasmicNewPage11__Fetches;
+  className?: string;
 }
 
 function PlasmicNewPage11__RenderFunc(props: {
@@ -68,53 +68,33 @@ function PlasmicNewPage11__RenderFunc(props: {
   const { variants, args, overrides, forNode, dataFetches } = props;
 
   return (
-    <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-        <title key="title">{"499067"}</title>
-        <meta key="og:title" property="og:title" content={"499067"} />
-      </Head>
-
-      <style>{`
-        body {
-          margin: 0;
-        }
-      `}</style>
-
-      <div className={projectcss.plasmic_page_wrapper}>
-        <div
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
-          data-plasmic-root={true}
-          data-plasmic-for-node={forNode}
-          className={classNames(
-            projectcss.all,
-            projectcss.root_reset,
-            sty.root
-          )}
-        >
-          <p.PlasmicImg
-            data-plasmic-name={"img"}
-            data-plasmic-override={overrides.img}
-            alt={""}
-            className={classNames(sty.img)}
-            displayHeight={"545px" as const}
-            displayMaxHeight={"none" as const}
-            displayMaxWidth={"100%" as const}
-            displayMinHeight={"0" as const}
-            displayMinWidth={"0" as const}
-            displayWidth={"323px" as const}
-            loading={"eager" as const}
-            src={{
-              src: "/plasmic/wanga/images/_499067Page001Jpg.jpeg",
-              fullWidth: 2480,
-              fullHeight: 3508,
-              aspectRatio: undefined
-            }}
-          />
-        </div>
-      </div>
-    </React.Fragment>
+    <div
+      data-plasmic-name={"root"}
+      data-plasmic-override={overrides.root}
+      data-plasmic-root={true}
+      data-plasmic-for-node={forNode}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+    >
+      <p.PlasmicImg
+        data-plasmic-name={"img"}
+        data-plasmic-override={overrides.img}
+        alt={""}
+        className={classNames(sty.img)}
+        displayHeight={"545px" as const}
+        displayMaxHeight={"none" as const}
+        displayMaxWidth={"100%" as const}
+        displayMinHeight={"0" as const}
+        displayMinWidth={"0" as const}
+        displayWidth={"323px" as const}
+        loading={"eager" as const}
+        src={{
+          src: "/plasmic/wanga/images/_499067Page001Jpg.jpeg",
+          fullWidth: 2480,
+          fullHeight: 3508,
+          aspectRatio: undefined
+        }}
+      />
+    </div>
   ) as React.ReactElement | null;
 }
 
