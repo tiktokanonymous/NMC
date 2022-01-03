@@ -1470,6 +1470,45 @@
           "cssFilePath": "plasmic/wanga/PlasmicNewPage849.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "sEEsKW6XHS",
+          "name": "NewPage914",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage914.tsx",
+          "importSpec": {
+            "modulePath": "../pages/499601.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage914.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "zpYm2YSesx",
+          "name": "NewPage69",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage69.tsx",
+          "importSpec": {
+            "modulePath": "../pages/499601-3.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage69.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "_JZBIB5PEL",
+          "name": "NewPage850",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage850.tsx",
+          "importSpec": {
+            "modulePath": "../pages/499604.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage850.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],
@@ -4448,6 +4487,16 @@
           "id": "5vkHe-zka",
           "name": "499421-page-001.jpg",
           "filePath": "../public/plasmic/wanga/images/_499421Page001Jpg.jpeg"
+        },
+        {
+          "id": "Z4knDU9e4",
+          "name": "499601-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_499601Page001Jpg.jpeg"
+        },
+        {
+          "id": "K_UGjs4As",
+          "name": "499604-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_499604Page001Jpg.jpeg"
         }
       ],
       "indirect": false,
