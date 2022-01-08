@@ -62,10 +62,10 @@ function PlasmicNewPage11__RenderFunc(props: {
   variants: PlasmicNewPage11__VariantsArgs;
   args: PlasmicNewPage11__ArgsType;
   overrides: PlasmicNewPage11__OverridesType;
-  dataFetches?: PlasmicNewPage11__Fetches;
+
   forNode?: string;
 }) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
 
   return (
     <div
@@ -121,7 +121,6 @@ type NodeComponentProps<T extends NodeNameType> =
     variants?: PlasmicNewPage11__VariantsArgs;
     args?: PlasmicNewPage11__ArgsType;
     overrides?: NodeOverridesType<T>;
-    dataFetches?: PlasmicNewPage11__Fetches;
   } & Omit<PlasmicNewPage11__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
     // Specify args directly as props
     Omit<PlasmicNewPage11__ArgsType, ReservedPropsType> &
@@ -148,13 +147,10 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       internalVariantPropNames: PlasmicNewPage11__VariantProps
     });
 
-    const { dataFetches } = props;
-
     return PlasmicNewPage11__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

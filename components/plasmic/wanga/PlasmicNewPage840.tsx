@@ -54,18 +54,16 @@ export type PlasmicNewPage840__OverridesType = {
   img?: p.Flex<typeof p.PlasmicImg>;
 };
 
-export interface DefaultNewPage840Props {
-  dataFetches: PlasmicNewPage840__Fetches;
-}
+export interface DefaultNewPage840Props {}
 
 function PlasmicNewPage840__RenderFunc(props: {
   variants: PlasmicNewPage840__VariantsArgs;
   args: PlasmicNewPage840__ArgsType;
   overrides: PlasmicNewPage840__OverridesType;
-  dataFetches?: PlasmicNewPage840__Fetches;
+
   forNode?: string;
 }) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
 
   return (
     <React.Fragment>
@@ -141,7 +139,6 @@ type NodeComponentProps<T extends NodeNameType> =
     variants?: PlasmicNewPage840__VariantsArgs;
     args?: PlasmicNewPage840__ArgsType;
     overrides?: NodeOverridesType<T>;
-    dataFetches?: PlasmicNewPage840__Fetches;
   } & Omit<PlasmicNewPage840__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
     // Specify args directly as props
     Omit<PlasmicNewPage840__ArgsType, ReservedPropsType> &
@@ -168,13 +165,10 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       internalVariantPropNames: PlasmicNewPage840__VariantProps
     });
 
-    const { dataFetches } = props;
-
     return PlasmicNewPage840__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

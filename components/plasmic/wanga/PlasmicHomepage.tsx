@@ -55,18 +55,16 @@ export type PlasmicHomepage__OverridesType = {
   img?: p.Flex<typeof p.PlasmicImg>;
 };
 
-export interface DefaultHomepageProps {
-  dataFetches: PlasmicHomepage__Fetches;
-}
+export interface DefaultHomepageProps {}
 
 function PlasmicHomepage__RenderFunc(props: {
   variants: PlasmicHomepage__VariantsArgs;
   args: PlasmicHomepage__ArgsType;
   overrides: PlasmicHomepage__OverridesType;
-  dataFetches?: PlasmicHomepage__Fetches;
+
   forNode?: string;
 }) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
 
   return (
     <React.Fragment>
@@ -158,7 +156,6 @@ type NodeComponentProps<T extends NodeNameType> =
     variants?: PlasmicHomepage__VariantsArgs;
     args?: PlasmicHomepage__ArgsType;
     overrides?: NodeOverridesType<T>;
-    dataFetches?: PlasmicHomepage__Fetches;
   } & Omit<PlasmicHomepage__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
     // Specify args directly as props
     Omit<PlasmicHomepage__ArgsType, ReservedPropsType> &
@@ -185,13 +182,10 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       internalVariantPropNames: PlasmicHomepage__VariantProps
     });
 
-    const { dataFetches } = props;
-
     return PlasmicHomepage__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
