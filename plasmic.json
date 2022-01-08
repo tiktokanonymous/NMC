@@ -1491,7 +1491,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage69.tsx",
           "importSpec": {
-            "modulePath": "../pages/499601-3.tsx"
+            "modulePath": "../pages/500172.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage69.module.css",
           "scheme": "blackbox",
@@ -3548,6 +3548,32 @@
             "modulePath": "../pages/500164.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage233.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "w-VHyDhoMB",
+          "name": "NewPage234",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage234.tsx",
+          "importSpec": {
+            "modulePath": "../pages/500171.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage234.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "FmsbYpltlP",
+          "name": "NewPage314",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage314.tsx",
+          "importSpec": {
+            "modulePath": "../pages/499613-2.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage314.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -7413,6 +7439,16 @@
           "id": "BlHZlphd3",
           "name": "500164-page-001.jpg",
           "filePath": "../public/plasmic/wanga/images/_500164Page001Jpg.jpeg"
+        },
+        {
+          "id": "D48VirODH",
+          "name": "500171-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_500171Page001Jpg.jpeg"
+        },
+        {
+          "id": "z361nyu0m",
+          "name": "500172-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_500172Page001Jpg.jpeg"
         }
       ],
       "indirect": false,
