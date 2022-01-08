@@ -36,8 +36,8 @@ import {
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
-import * as projectcss from "./plasmic_wanga.module.css"; // plasmic-import: pGUwLaFPdGtokmdZ3W7Ccj/projectcss
-import * as sty from "./PlasmicNewPage624.module.css"; // plasmic-import: r5lK6fNP4s/css
+import projectcss from "./plasmic_wanga.module.css"; // plasmic-import: pGUwLaFPdGtokmdZ3W7Ccj/projectcss
+import sty from "./PlasmicNewPage624.module.css"; // plasmic-import: r5lK6fNP4s/css
 
 export type PlasmicNewPage624__VariantMembers = {};
 
