@@ -3979,6 +3979,19 @@
           "cssFilePath": "plasmic/wanga/PlasmicNewPage77.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "SuKXy2V4bP",
+          "name": "NewPage8101",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage8101.tsx",
+          "importSpec": {
+            "modulePath": "../pages/500320.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage8101.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],
@@ -8002,6 +8015,11 @@
           "id": "1TnFdvUsq",
           "name": "500223-page-001.jpg",
           "filePath": "../public/plasmic/wanga/images/_500223Page001Jpg.jpeg"
+        },
+        {
+          "id": "UBtzcm1Kv",
+          "name": "500320-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_500320Page001Jpg.jpeg"
         }
       ],
       "indirect": false,
