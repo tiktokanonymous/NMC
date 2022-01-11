@@ -4278,6 +4278,32 @@
           "cssFilePath": "plasmic/wanga/PlasmicNewPage8106.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "-ZjKz7FV4L",
+          "name": "NewPage8107",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage8107.tsx",
+          "importSpec": {
+            "modulePath": "../pages/500365.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage8107.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "7HKJ9R1Cvc",
+          "name": "NewPage8108",
+          "type": "managed",
+          "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage8108.tsx",
+          "importSpec": {
+            "modulePath": "../pages/500366.tsx"
+          },
+          "cssFilePath": "plasmic/wanga/PlasmicNewPage8108.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],
@@ -8436,6 +8462,16 @@
           "id": "vo-GPl8Rg",
           "name": "500364-page-001.jpg",
           "filePath": "../public/plasmic/wanga/images/_500364Page001Jpg.jpeg"
+        },
+        {
+          "id": "MXAfVhmyW",
+          "name": "500365-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_500365Page001Jpg.jpeg"
+        },
+        {
+          "id": "8xpZquKFs",
+          "name": "500366-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_500366Page001Jpg.jpeg"
         }
       ],
       "indirect": false,
