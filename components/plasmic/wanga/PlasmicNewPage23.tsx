@@ -69,8 +69,8 @@ function PlasmicNewPage23__RenderFunc(props: {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
-        <title key="title">{"500134"}</title>
-        <meta key="og:title" property="og:title" content={"500134"} />
+        <title key="title">{"2222"}</title>
+        <meta key="og:title" property="og:title" content={"2222"} />
       </Head>
 
       <style>{`
@@ -133,7 +133,6 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicNewPage23__OverridesType,
   DescendantsType<T>
 >;
-
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
