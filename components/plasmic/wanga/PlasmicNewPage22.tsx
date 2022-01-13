@@ -69,8 +69,8 @@ function PlasmicNewPage22__RenderFunc(props: {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
-        <title key="title">{"499917"}</title>
-        <meta key="og:title" property="og:title" content={"499917"} />
+        <title key="title">{"500449"}</title>
+        <meta key="og:title" property="og:title" content={"500449"} />
       </Head>
 
       <style>{`
@@ -104,7 +104,7 @@ function PlasmicNewPage22__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_499917Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_500449Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
@@ -133,7 +133,6 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicNewPage22__OverridesType,
   DescendantsType<T>
 >;
-
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
