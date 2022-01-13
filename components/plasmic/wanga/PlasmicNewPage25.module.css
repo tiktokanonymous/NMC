@@ -9,11 +9,13 @@
   min-height: 0;
 }
 .img {
-  position: relative;
+  position: absolute;
   object-fit: cover;
   max-width: 100%;
   width: 323px;
   height: 545px;
+  left: 1px;
+  top: -15px;
   flex-shrink: 0;
 }
 .img > picture > img {
