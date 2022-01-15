@@ -178,7 +178,7 @@
 :where(.root_reset) h1,
 :where(.root_reset) .plasmic_default__h1,
 :where(.root_reset) .h1,
-h1:where(.root_reset) {
+.plasmic_default__h1:where(.root_reset) {
   font-family: "Inter";
   color: #000000;
   font-size: 72px;
@@ -190,7 +190,7 @@ h1:where(.root_reset) {
 :where(.root_reset) h2,
 :where(.root_reset) .plasmic_default__h2,
 :where(.root_reset) .h2,
-h2:where(.root_reset) {
+.plasmic_default__h2:where(.root_reset) {
   font-family: "Inter";
   color: #000000;
   font-size: 48px;
@@ -202,7 +202,7 @@ h2:where(.root_reset) {
 :where(.root_reset) h3,
 :where(.root_reset) .plasmic_default__h3,
 :where(.root_reset) .h3,
-h3:where(.root_reset) {
+.plasmic_default__h3:where(.root_reset) {
   font-family: "Inter";
   color: #000000;
   font-size: 32px;
@@ -214,7 +214,7 @@ h3:where(.root_reset) {
 :where(.root_reset) h4,
 :where(.root_reset) .plasmic_default__h4,
 :where(.root_reset) .h4,
-h4:where(.root_reset) {
+.plasmic_default__h4:where(.root_reset) {
   font-family: "Inter";
   color: #000000;
   font-size: 24px;
@@ -226,7 +226,7 @@ h4:where(.root_reset) {
 :where(.root_reset) h5,
 :where(.root_reset) .plasmic_default__h5,
 :where(.root_reset) .h5,
-h5:where(.root_reset) {
+.plasmic_default__h5:where(.root_reset) {
   font-family: "Inter";
   color: #000000;
   font-size: 20px;
@@ -238,7 +238,7 @@ h5:where(.root_reset) {
 :where(.root_reset) h6,
 :where(.root_reset) .plasmic_default__h6,
 :where(.root_reset) .h6,
-h6:where(.root_reset) {
+.plasmic_default__h6:where(.root_reset) {
   font-family: "Inter";
   color: #000000;
   font-size: 16px;
@@ -249,21 +249,21 @@ h6:where(.root_reset) {
 :where(.root_reset) a,
 :where(.root_reset) .plasmic_default__a,
 :where(.root_reset) .a,
-a:where(.root_reset) {
+.plasmic_default__a:where(.root_reset) {
   color: #0070f3;
 }
 
 :where(.root_reset) a:hover,
 :where(.root_reset) .plasmic_default__a:hover,
 :where(.root_reset) .a:hover,
-a:hover:where(.root_reset) {
+.plasmic_default__a:hover:where(.root_reset) {
   color: #3291ff;
 }
 
 :where(.root_reset) blockquote,
 :where(.root_reset) .plasmic_default__blockquote,
 :where(.root_reset) .blockquote,
-blockquote:where(.root_reset) {
+.plasmic_default__blockquote:where(.root_reset) {
   color: #888888;
   padding-left: 10px;
   border-left: 3px solid #dddddd;
@@ -272,7 +272,7 @@ blockquote:where(.root_reset) {
 :where(.root_reset) code,
 :where(.root_reset) .plasmic_default__code,
 :where(.root_reset) .code,
-code:where(.root_reset) {
+.plasmic_default__code:where(.root_reset) {
   background: linear-gradient(#f8f8f8, #f8f8f8);
   font-family: "Inconsolata";
   border-radius: 3px;
@@ -283,7 +283,7 @@ code:where(.root_reset) {
 :where(.root_reset) pre,
 :where(.root_reset) .plasmic_default__pre,
 :where(.root_reset) .pre,
-pre:where(.root_reset) {
+.plasmic_default__pre:where(.root_reset) {
   background: linear-gradient(#f8f8f8, #f8f8f8);
   font-family: "Inconsolata";
   border-radius: 3px;
@@ -294,7 +294,7 @@ pre:where(.root_reset) {
 :where(.root_reset) ol,
 :where(.root_reset) .plasmic_default__ol,
 :where(.root_reset) .ol,
-ol:where(.root_reset) {
+.plasmic_default__ol:where(.root_reset) {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -309,7 +309,7 @@ ol:where(.root_reset) {
 :where(.root_reset) ul,
 :where(.root_reset) .plasmic_default__ul,
 :where(.root_reset) .ul,
-ul:where(.root_reset) {
+.plasmic_default__ul:where(.root_reset) {
   display: flex;
   flex-direction: column;
   align-items: stretch;
