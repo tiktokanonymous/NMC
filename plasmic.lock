@@ -8012,14 +8012,14 @@
           "checksum": "2b84b8aee69b3afe5397043aa643dd9f"
         },
         {
-          "assetId": "pGUwLaFPdGtokmdZ3W7Ccj",
-          "type": "projectCss",
-          "checksum": "cfd5e66b9305e4758c73753b50316c5c"
-        },
-        {
           "type": "image",
           "assetId": "J5F_CqzCm",
           "checksum": "9af6a6a129beb60cd8bd22c7aa2a08ec"
+        },
+        {
+          "assetId": "pGUwLaFPdGtokmdZ3W7Ccj",
+          "type": "projectCss",
+          "checksum": "cfd5e66b9305e4758c73753b50316c5c"
         }
       ]
     }
