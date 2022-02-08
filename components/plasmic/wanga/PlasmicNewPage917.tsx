@@ -88,6 +88,7 @@ function PlasmicNewPage917__RenderFunc(props: {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_default_styles,
             sty.root
           )}
         >
