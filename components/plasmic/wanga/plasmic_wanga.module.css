@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C700%3B0%2C900&family=Inter%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&display=swap");
 
-.plasmic_default_styles {
+.plasmic_default_styles,
+.plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants_unnamedVariant),
+.plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants_unnamedVariant2),
+.plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants_unnamedVariant3),
+.plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants2_unnamedVariant) {
   --mixin-j7ye2Zk7Bu_font-family: "Roboto";
   --mixin-j7ye2Zk7Bu_font-size: 16px;
   --mixin-j7ye2Zk7Bu_font-weight: 400;
