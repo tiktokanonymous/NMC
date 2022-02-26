@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+import * as ph from "@plasmicapp/host";
 
 import {
   hasVariant,
@@ -69,8 +70,8 @@ function PlasmicNewPage22__RenderFunc(props: {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
-        <title key="title">{"500449"}</title>
-        <meta key="og:title" property="og:title" content={"500449"} />
+        <title key="title">{"600462"}</title>
+        <meta key="og:title" property="og:title" content={"600462"} />
       </Head>
 
       <style>{`
@@ -105,7 +106,7 @@ function PlasmicNewPage22__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_500449Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_600462Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
