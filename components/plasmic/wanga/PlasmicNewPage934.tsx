@@ -90,6 +90,7 @@ function PlasmicNewPage934__RenderFunc(props: {
             projectcss.all,
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
+            projectcss.plasmic_mixins,
             sty.root
           )}
         >
