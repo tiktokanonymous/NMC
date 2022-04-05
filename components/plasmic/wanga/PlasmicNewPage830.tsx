@@ -68,9 +68,7 @@ function PlasmicNewPage830__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-      </Head>
+      {}
 
       <style>{`
         body {
