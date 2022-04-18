@@ -65,6 +65,7 @@ function PlasmicNewPage8101__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
 
   return (
     <React.Fragment>
