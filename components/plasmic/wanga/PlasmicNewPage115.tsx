@@ -132,7 +132,7 @@ function PlasmicNewPage115__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"eager" as const}
             src={{
-              src: "/plasmic/wanga/images/_500491Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_700941Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
@@ -225,7 +225,7 @@ export const PlasmicNewPage115 = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "500491",
+      title: "700941",
       description: "",
       ogImageSrc: "",
       canonical: ""
