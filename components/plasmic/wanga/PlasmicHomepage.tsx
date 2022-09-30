@@ -65,15 +65,39 @@ function PlasmicHomepage__RenderFunc(props: {
 
   forNode?: string;
 }) {
-  const { variants, args, overrides, forNode } = props;
-  const $props = props.args;
+  const { variants, overrides, forNode } = props;
+
+  const $ctx = ph.useDataEnv?.() || {};
+  const args = React.useMemo(
+    () =>
+      Object.assign(
+        {},
+
+        props.args
+      ),
+    [props.args]
+  );
+
+  const $props = {
+    ...args,
+    ...variants
+  };
 
   return (
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
-        <title key="title">{"1"}</title>
-        <meta key="og:title" property="og:title" content={"1"} />
+        <title key="title">{PlasmicHomepage.pageMetadata.title}</title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
       </Head>
 
       <style>{`
@@ -179,12 +203,16 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
   const func = function <T extends PropsType>(
     props: T & StrictProps<T, PropsType>
   ) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicHomepage__ArgProps,
-      internalVariantPropNames: PlasmicHomepage__VariantProps
-    });
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicHomepage__ArgProps,
+          internalVariantPropNames: PlasmicHomepage__VariantProps
+        }),
+      [props, nodeName]
+    );
 
     return PlasmicHomepage__RenderFunc({
       variants,
@@ -211,7 +239,15 @@ export const PlasmicHomepage = Object.assign(
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
-    internalArgProps: PlasmicHomepage__ArgProps
+    internalArgProps: PlasmicHomepage__ArgProps,
+
+    // Page metadata
+    pageMetadata: {
+      title: "1",
+      description: "",
+      ogImageSrc: "",
+      canonical: ""
+    }
   }
 );
 

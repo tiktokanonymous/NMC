@@ -64,15 +64,39 @@ function PlasmicNewPage837__RenderFunc(props: {
 
   forNode?: string;
 }) {
-  const { variants, args, overrides, forNode } = props;
-  const $props = props.args;
+  const { variants, overrides, forNode } = props;
+
+  const $ctx = ph.useDataEnv?.() || {};
+  const args = React.useMemo(
+    () =>
+      Object.assign(
+        {},
+
+        props.args
+      ),
+    [props.args]
+  );
+
+  const $props = {
+    ...args,
+    ...variants
+  };
 
   return (
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
-        <title key="title">{"500447"}</title>
-        <meta key="og:title" property="og:title" content={"500447"} />
+        <title key="title">{PlasmicNewPage837.pageMetadata.title}</title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={PlasmicNewPage837.pageMetadata.title}
+        />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content={PlasmicNewPage837.pageMetadata.title}
+        />
       </Head>
 
       <style>{`
@@ -162,12 +186,16 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
   const func = function <T extends PropsType>(
     props: T & StrictProps<T, PropsType>
   ) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicNewPage837__ArgProps,
-      internalVariantPropNames: PlasmicNewPage837__VariantProps
-    });
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicNewPage837__ArgProps,
+          internalVariantPropNames: PlasmicNewPage837__VariantProps
+        }),
+      [props, nodeName]
+    );
 
     return PlasmicNewPage837__RenderFunc({
       variants,
@@ -193,7 +221,15 @@ export const PlasmicNewPage837 = Object.assign(
 
     // Metadata about props expected for PlasmicNewPage837
     internalVariantProps: PlasmicNewPage837__VariantProps,
-    internalArgProps: PlasmicNewPage837__ArgProps
+    internalArgProps: PlasmicNewPage837__ArgProps,
+
+    // Page metadata
+    pageMetadata: {
+      title: "500447",
+      description: "",
+      ogImageSrc: "",
+      canonical: ""
+    }
   }
 );
 

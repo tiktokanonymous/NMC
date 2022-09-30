@@ -24,42 +24,51 @@
   --mixin-oWOKS9zzPt_font-weight: 900;
   --mixin-oWOKS9zzPt_letter-spacing: -4px;
   --mixin-oWOKS9zzPt_line-height: 1;
+  --mixin-oWOKS9zzPt_white-space: pre-wrap;
   --mixin-gpUAPqqg81_font-family: "Inter";
   --mixin-gpUAPqqg81_color: #000000;
   --mixin-gpUAPqqg81_font-size: 48px;
   --mixin-gpUAPqqg81_font-weight: 700;
   --mixin-gpUAPqqg81_letter-spacing: -1px;
   --mixin-gpUAPqqg81_line-height: 1.1;
+  --mixin-gpUAPqqg81_white-space: pre-wrap;
   --mixin-BiT3i40OwU_font-family: "Inter";
   --mixin-BiT3i40OwU_color: #000000;
   --mixin-BiT3i40OwU_font-size: 32px;
   --mixin-BiT3i40OwU_font-weight: 600;
   --mixin-BiT3i40OwU_letter-spacing: -0.8px;
   --mixin-BiT3i40OwU_line-height: 1.2;
+  --mixin-BiT3i40OwU_white-space: pre-wrap;
   --mixin-ZxDqoonQT3_font-family: "Inter";
   --mixin-ZxDqoonQT3_color: #000000;
   --mixin-ZxDqoonQT3_font-size: 24px;
   --mixin-ZxDqoonQT3_font-weight: 600;
   --mixin-ZxDqoonQT3_letter-spacing: -0.5px;
   --mixin-ZxDqoonQT3_line-height: 1.3;
+  --mixin-ZxDqoonQT3_white-space: pre-wrap;
   --mixin-a1pb8RBdO7_font-family: "Inter";
   --mixin-a1pb8RBdO7_color: #000000;
   --mixin-a1pb8RBdO7_font-size: 20px;
   --mixin-a1pb8RBdO7_font-weight: 600;
   --mixin-a1pb8RBdO7_letter-spacing: -0.3px;
   --mixin-a1pb8RBdO7_line-height: 1.5;
+  --mixin-a1pb8RBdO7_white-space: pre-wrap;
   --mixin-oLjlC_mpfJ_font-family: "Inter";
   --mixin-oLjlC_mpfJ_color: #000000;
   --mixin-oLjlC_mpfJ_font-size: 16px;
   --mixin-oLjlC_mpfJ_font-weight: 600;
   --mixin-oLjlC_mpfJ_line-height: 1.5;
+  --mixin-oLjlC_mpfJ_white-space: pre-wrap;
   --mixin-9dTsEJoJd3_color: #0070f3;
+  --mixin-9dTsEJoJd3_white-space: pre-wrap;
   --mixin-7lvAOcFC5F_color: #3291ff;
+  --mixin-7lvAOcFC5F_white-space: pre-wrap;
   --mixin-W4txG2spWJ_border-left-color: #dddddd;
   --mixin-W4txG2spWJ_border-left-style: solid;
   --mixin-W4txG2spWJ_border-left-width: 3px;
   --mixin-W4txG2spWJ_color: #888888;
   --mixin-W4txG2spWJ_padding-left: 10px;
+  --mixin-W4txG2spWJ_white-space: pre-wrap;
   --mixin-cvdqvLPJBG_background: linear-gradient(#f8f8f8, #f8f8f8);
   --mixin-cvdqvLPJBG_border-bottom-color: #dddddd;
   --mixin-cvdqvLPJBG_border-bottom-style: solid;
@@ -82,6 +91,7 @@
   --mixin-cvdqvLPJBG_padding-left: 4px;
   --mixin-cvdqvLPJBG_padding-right: 4px;
   --mixin-cvdqvLPJBG_padding-top: 1px;
+  --mixin-cvdqvLPJBG_white-space: pre-wrap;
   --mixin-orW-LAS2mY_background: linear-gradient(#f8f8f8, #f8f8f8);
   --mixin-orW-LAS2mY_border-bottom-color: #dddddd;
   --mixin-orW-LAS2mY_border-bottom-style: solid;
@@ -104,6 +114,7 @@
   --mixin-orW-LAS2mY_padding-left: 6px;
   --mixin-orW-LAS2mY_padding-right: 6px;
   --mixin-orW-LAS2mY_padding-top: 3px;
+  --mixin-orW-LAS2mY_white-space: pre-wrap;
   --mixin-5BhRmdhXWQ_display: flex;
   --mixin-5BhRmdhXWQ_flex-direction: column;
   --mixin-5BhRmdhXWQ_align-items: stretch;
@@ -112,6 +123,7 @@
   --mixin-5BhRmdhXWQ_padding-left: 40px;
   --mixin-5BhRmdhXWQ_position: relative;
   --mixin-5BhRmdhXWQ_list-style-type: decimal;
+  --mixin-5BhRmdhXWQ_white-space: pre-wrap;
   --mixin-TW6MM3EWSt_display: flex;
   --mixin-TW6MM3EWSt_flex-direction: column;
   --mixin-TW6MM3EWSt_align-items: stretch;
@@ -120,6 +132,7 @@
   --mixin-TW6MM3EWSt_padding-left: 40px;
   --mixin-TW6MM3EWSt_position: relative;
   --mixin-TW6MM3EWSt_list-style-type: disc;
+  --mixin-TW6MM3EWSt_white-space: pre-wrap;
 }
 
 :where(.all) {
@@ -137,12 +150,34 @@
   margin: 0;
   border-width: 0px;
 }
+:where(.__wab_expr_html_text *) {
+  white-space: inherit;
+  grid-row: auto;
+  grid-column: auto;
+  background: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  margin: 0;
+  border-width: 0px;
+}
+
 :where(.img) {
   display: inline-block;
 }
+:where(.__wab_expr_html_text img) {
+  white-space: inherit;
+}
+
 :where(.li) {
   display: list-item;
 }
+:where(.__wab_expr_html_text li) {
+  white-space: inherit;
+}
+
 :where(.span) {
   display: inline;
   position: static;
@@ -154,6 +189,17 @@
   color: inherit;
   text-transform: inherit;
 }
+:where(.__wab_expr_html_text span) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
 :where(.input) {
   font-family: inherit;
   line-height: inherit;
@@ -166,6 +212,20 @@
   padding: 2px;
   border: 1px solid lightgray;
 }
+:where(.__wab_expr_html_text input) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
 :where(.textarea) {
   font-family: inherit;
   line-height: inherit;
@@ -177,6 +237,19 @@
   padding: 2px;
   border: 1px solid lightgray;
 }
+:where(.__wab_expr_html_text textarea) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
 :where(.button) {
   font-family: inherit;
   line-height: inherit;
@@ -191,14 +264,42 @@
   padding: 2px 6px;
   border: 1px solid lightgray;
 }
+:where(.__wab_expr_html_text button) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: none;
+  align-items: flex-start;
+  text-align: center;
+  padding: 2px 6px;
+  border: 1px solid lightgray;
+}
+
 :where(.code) {
   font-family: inherit;
   line-height: inherit;
 }
+:where(.__wab_expr_html_text code) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
 :where(.pre) {
   font-family: inherit;
   line-height: inherit;
 }
+:where(.__wab_expr_html_text pre) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
 :where(.p) {
   font-family: inherit;
   line-height: inherit;
@@ -208,47 +309,121 @@
   color: inherit;
   text-transform: inherit;
 }
+:where(.__wab_expr_html_text p) {
+  white-space: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
 :where(.h1) {
   font-size: inherit;
   font-weight: inherit;
 }
+:where(.__wab_expr_html_text h1) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :where(.h2) {
   font-size: inherit;
   font-weight: inherit;
 }
+:where(.__wab_expr_html_text h2) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :where(.h3) {
   font-size: inherit;
   font-weight: inherit;
 }
+:where(.__wab_expr_html_text h3) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :where(.h4) {
   font-size: inherit;
   font-weight: inherit;
 }
+:where(.__wab_expr_html_text h4) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :where(.h5) {
   font-size: inherit;
   font-weight: inherit;
 }
+:where(.__wab_expr_html_text h5) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :where(.h6) {
   font-size: inherit;
   font-weight: inherit;
 }
+:where(.__wab_expr_html_text h6) {
+  white-space: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 :where(.address) {
   font-style: inherit;
 }
+:where(.__wab_expr_html_text address) {
+  white-space: inherit;
+  font-style: inherit;
+}
+
 :where(.a) {
   color: inherit;
 }
+:where(.__wab_expr_html_text a) {
+  white-space: inherit;
+  color: inherit;
+}
+
 :where(.ol) {
   list-style-type: none;
   padding: 0;
 }
+:where(.__wab_expr_html_text ol) {
+  white-space: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
 :where(.ul) {
   list-style-type: none;
   padding: 0;
 }
+:where(.__wab_expr_html_text ul) {
+  white-space: inherit;
+  list-style-type: none;
+  padding: 0;
+}
+
 :where(.select) {
   padding: 2px 6px;
 }
+:where(.__wab_expr_html_text select) {
+  white-space: inherit;
+  padding: 2px 6px;
+}
+
 .plasmic_default__component_wrapper {
   display: grid;
 }
@@ -265,6 +440,9 @@
 .plasmic_page_wrapper > * {
   height: auto !important;
 }
+.__wab_expr_html_text {
+  white-space: normal;
+}
 .root_reset {
   font-family: var(--mixin-j7ye2Zk7Bu_font-family);
   font-size: var(--mixin-j7ye2Zk7Bu_font-size);
@@ -280,6 +458,7 @@
 
 :where(.root_reset .plasmic_default__h1),
 :where(.root_reset .h1),
+:where(.root_reset :global(.__wab_expr_html_text) h1),
 :where(.root_reset.plasmic_default__h1) {
   font-family: var(--mixin-oWOKS9zzPt_font-family);
   color: var(--mixin-oWOKS9zzPt_color);
@@ -291,6 +470,7 @@
 
 :where(.root_reset .plasmic_default__h2),
 :where(.root_reset .h2),
+:where(.root_reset :global(.__wab_expr_html_text) h2),
 :where(.root_reset.plasmic_default__h2) {
   font-family: var(--mixin-gpUAPqqg81_font-family);
   color: var(--mixin-gpUAPqqg81_color);
@@ -302,6 +482,7 @@
 
 :where(.root_reset .plasmic_default__h3),
 :where(.root_reset .h3),
+:where(.root_reset :global(.__wab_expr_html_text) h3),
 :where(.root_reset.plasmic_default__h3) {
   font-family: var(--mixin-BiT3i40OwU_font-family);
   color: var(--mixin-BiT3i40OwU_color);
@@ -313,6 +494,7 @@
 
 :where(.root_reset .plasmic_default__h4),
 :where(.root_reset .h4),
+:where(.root_reset :global(.__wab_expr_html_text) h4),
 :where(.root_reset.plasmic_default__h4) {
   font-family: var(--mixin-ZxDqoonQT3_font-family);
   color: var(--mixin-ZxDqoonQT3_color);
@@ -324,6 +506,7 @@
 
 :where(.root_reset .plasmic_default__h5),
 :where(.root_reset .h5),
+:where(.root_reset :global(.__wab_expr_html_text) h5),
 :where(.root_reset.plasmic_default__h5) {
   font-family: var(--mixin-a1pb8RBdO7_font-family);
   color: var(--mixin-a1pb8RBdO7_color);
@@ -335,6 +518,7 @@
 
 :where(.root_reset .plasmic_default__h6),
 :where(.root_reset .h6),
+:where(.root_reset :global(.__wab_expr_html_text) h6),
 :where(.root_reset.plasmic_default__h6) {
   font-family: var(--mixin-oLjlC_mpfJ_font-family);
   color: var(--mixin-oLjlC_mpfJ_color);
@@ -345,18 +529,21 @@
 
 :where(.root_reset .plasmic_default__a),
 :where(.root_reset .a),
+:where(.root_reset :global(.__wab_expr_html_text) a),
 :where(.root_reset.plasmic_default__a) {
   color: var(--mixin-9dTsEJoJd3_color);
 }
 
 :where(.root_reset .plasmic_default__a:hover),
 :where(.root_reset .a:hover),
+:where(.root_reset :global(.__wab_expr_html_text) a:hover),
 :where(.root_reset.plasmic_default__a:hover) {
   color: var(--mixin-7lvAOcFC5F_color);
 }
 
 :where(.root_reset .plasmic_default__blockquote),
 :where(.root_reset .blockquote),
+:where(.root_reset :global(.__wab_expr_html_text) blockquote),
 :where(.root_reset.plasmic_default__blockquote) {
   color: var(--mixin-W4txG2spWJ_color);
   padding-left: var(--mixin-W4txG2spWJ_padding-left);
@@ -367,6 +554,7 @@
 
 :where(.root_reset .plasmic_default__code),
 :where(.root_reset .code),
+:where(.root_reset :global(.__wab_expr_html_text) code),
 :where(.root_reset.plasmic_default__code) {
   background: var(--mixin-cvdqvLPJBG_background);
   font-family: var(--mixin-cvdqvLPJBG_font-family);
@@ -393,6 +581,7 @@
 
 :where(.root_reset .plasmic_default__pre),
 :where(.root_reset .pre),
+:where(.root_reset :global(.__wab_expr_html_text) pre),
 :where(.root_reset.plasmic_default__pre) {
   background: var(--mixin-orW-LAS2mY_background);
   font-family: var(--mixin-orW-LAS2mY_font-family);
@@ -419,6 +608,7 @@
 
 :where(.root_reset .plasmic_default__ol),
 :where(.root_reset .ol),
+:where(.root_reset :global(.__wab_expr_html_text) ol),
 :where(.root_reset.plasmic_default__ol) {
   display: var(--mixin-5BhRmdhXWQ_display);
   flex-direction: var(--mixin-5BhRmdhXWQ_flex-direction);
@@ -433,6 +623,7 @@
 
 :where(.root_reset .plasmic_default__ul),
 :where(.root_reset .ul),
+:where(.root_reset :global(.__wab_expr_html_text) ul),
 :where(.root_reset.plasmic_default__ul) {
   display: var(--mixin-TW6MM3EWSt_display);
   flex-direction: var(--mixin-TW6MM3EWSt_flex-direction);

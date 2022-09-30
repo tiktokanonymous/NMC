@@ -26,7 +26,7 @@
   object-fit: cover;
   object-position: center 50%;
 }
-.img > .__wab_img-spacer > img {
+.img > :global(.__wab_img-spacer) > img {
   object-fit: cover;
   object-position: center 50%;
 }

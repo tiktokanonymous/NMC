@@ -711,7 +711,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage114.tsx",
           "importSpec": {
-            "modulePath": "../pages/500145.tsx"
+            "modulePath": "../pages/700935.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage114.module.css",
           "scheme": "blackbox",
@@ -1894,7 +1894,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage144.tsx",
           "importSpec": {
-            "modulePath": "../pages/500451.tsx"
+            "modulePath": "../pages/700934.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage144.module.css",
           "scheme": "blackbox",
@@ -2583,7 +2583,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage224.tsx",
           "importSpec": {
-            "modulePath": "../pages/600530.tsx"
+            "modulePath": "../pages/700933.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage224.module.css",
           "scheme": "blackbox",
@@ -3181,7 +3181,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage311.tsx",
           "importSpec": {
-            "modulePath": "../pages/500122.tsx"
+            "modulePath": "../pages/700931.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage311.module.css",
           "scheme": "blackbox",
@@ -4156,7 +4156,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage318.tsx",
           "importSpec": {
-            "modulePath": "../pages/600853.tsx"
+            "modulePath": "../pages/700932.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage318.module.css",
           "scheme": "blackbox",
@@ -9396,10 +9396,46 @@
           "id": "FJSoRsMZt",
           "name": "600925-page-001.jpg",
           "filePath": "../public/plasmic/wanga/images/_600925Page001Jpg.jpeg"
+        },
+        {
+          "id": "vAi1u1PyW",
+          "name": "700931-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_700931Page001Jpg.jpeg"
+        },
+        {
+          "id": "CNsq31NL8",
+          "name": "700932-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_700932Page001Jpg.jpeg"
+        },
+        {
+          "id": "imdgtbP9E",
+          "name": "700933-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_700933Page001Jpg.jpeg"
+        },
+        {
+          "id": "rnBqaRFX3",
+          "name": "700934-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_700934Page001Jpg.jpeg"
+        },
+        {
+          "id": "sckwgkr-5",
+          "name": "700935-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_700935Page001Jpg.jpeg"
         }
       ],
       "indirect": false,
-      "codeComponents": [],
+      "codeComponents": [
+        {
+          "id": "dh0umDE11W",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "PVJguPp4o5",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ],
       "globalContextsFilePath": ""
     }
   ],
@@ -9423,6 +9459,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.178",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
 }
