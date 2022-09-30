@@ -132,7 +132,7 @@ function PlasmicNewPage144__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_700934Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_700934Page001Jpg2.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
