@@ -225,7 +225,7 @@ export const PlasmicNewPage20 = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "500388",
+      title: "50038",
       description: "",
       ogImageSrc: "",
       canonical: ""

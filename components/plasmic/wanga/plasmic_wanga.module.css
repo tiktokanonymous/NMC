@@ -5,7 +5,7 @@
 .plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants_unnamedVariant2),
 .plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants_unnamedVariant3),
 .plasmic_default_styles:where(.global_unnamedGlobalGroupOfVariants2_unnamedVariant) {
-  --mixin-j7ye2Zk7Bu_font-family: "Roboto";
+  --mixin-j7ye2Zk7Bu_font-family: "Roboto", sans-serif;
   --mixin-j7ye2Zk7Bu_font-size: 16px;
   --mixin-j7ye2Zk7Bu_font-weight: 400;
   --mixin-j7ye2Zk7Bu_font-style: normal;
@@ -18,42 +18,42 @@
   --mixin-j7ye2Zk7Bu_user-select: text;
   --mixin-j7ye2Zk7Bu_text-decoration-line: none;
   --mixin-j7ye2Zk7Bu_text-overflow: clip;
-  --mixin-oWOKS9zzPt_font-family: "Inter";
+  --mixin-oWOKS9zzPt_font-family: "Inter", sans-serif;
   --mixin-oWOKS9zzPt_color: #000000;
   --mixin-oWOKS9zzPt_font-size: 72px;
   --mixin-oWOKS9zzPt_font-weight: 900;
   --mixin-oWOKS9zzPt_letter-spacing: -4px;
   --mixin-oWOKS9zzPt_line-height: 1;
   --mixin-oWOKS9zzPt_white-space: pre-wrap;
-  --mixin-gpUAPqqg81_font-family: "Inter";
+  --mixin-gpUAPqqg81_font-family: "Inter", sans-serif;
   --mixin-gpUAPqqg81_color: #000000;
   --mixin-gpUAPqqg81_font-size: 48px;
   --mixin-gpUAPqqg81_font-weight: 700;
   --mixin-gpUAPqqg81_letter-spacing: -1px;
   --mixin-gpUAPqqg81_line-height: 1.1;
   --mixin-gpUAPqqg81_white-space: pre-wrap;
-  --mixin-BiT3i40OwU_font-family: "Inter";
+  --mixin-BiT3i40OwU_font-family: "Inter", sans-serif;
   --mixin-BiT3i40OwU_color: #000000;
   --mixin-BiT3i40OwU_font-size: 32px;
   --mixin-BiT3i40OwU_font-weight: 600;
   --mixin-BiT3i40OwU_letter-spacing: -0.8px;
   --mixin-BiT3i40OwU_line-height: 1.2;
   --mixin-BiT3i40OwU_white-space: pre-wrap;
-  --mixin-ZxDqoonQT3_font-family: "Inter";
+  --mixin-ZxDqoonQT3_font-family: "Inter", sans-serif;
   --mixin-ZxDqoonQT3_color: #000000;
   --mixin-ZxDqoonQT3_font-size: 24px;
   --mixin-ZxDqoonQT3_font-weight: 600;
   --mixin-ZxDqoonQT3_letter-spacing: -0.5px;
   --mixin-ZxDqoonQT3_line-height: 1.3;
   --mixin-ZxDqoonQT3_white-space: pre-wrap;
-  --mixin-a1pb8RBdO7_font-family: "Inter";
+  --mixin-a1pb8RBdO7_font-family: "Inter", sans-serif;
   --mixin-a1pb8RBdO7_color: #000000;
   --mixin-a1pb8RBdO7_font-size: 20px;
   --mixin-a1pb8RBdO7_font-weight: 600;
   --mixin-a1pb8RBdO7_letter-spacing: -0.3px;
   --mixin-a1pb8RBdO7_line-height: 1.5;
   --mixin-a1pb8RBdO7_white-space: pre-wrap;
-  --mixin-oLjlC_mpfJ_font-family: "Inter";
+  --mixin-oLjlC_mpfJ_font-family: "Inter", sans-serif;
   --mixin-oLjlC_mpfJ_color: #000000;
   --mixin-oLjlC_mpfJ_font-size: 16px;
   --mixin-oLjlC_mpfJ_font-weight: 600;
