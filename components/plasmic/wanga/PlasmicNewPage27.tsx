@@ -83,6 +83,10 @@ function PlasmicNewPage27__RenderFunc(props: {
     ...variants
   };
 
+  const currentUser = p.useCurrentUser?.() || {};
+
+  const [$queries, setDollarQueries] = React.useState({});
+
   return (
     <React.Fragment>
       <Head>
@@ -134,7 +138,7 @@ function PlasmicNewPage27__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_500371Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_800932Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
@@ -229,7 +233,7 @@ export const PlasmicNewPage27 = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "500371",
+      title: "800832",
       description: "",
       ogImageSrc: "",
       canonical: ""

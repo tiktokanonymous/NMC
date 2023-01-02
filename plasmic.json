@@ -4312,7 +4312,7 @@
           "projectId": "pGUwLaFPdGtokmdZ3W7Ccj",
           "renderModuleFilePath": "plasmic/wanga/PlasmicNewPage27.tsx",
           "importSpec": {
-            "modulePath": "../pages/500371.tsx"
+            "modulePath": "../pages/800832.tsx"
           },
           "cssFilePath": "plasmic/wanga/PlasmicNewPage27.module.css",
           "scheme": "blackbox",
@@ -9486,6 +9486,11 @@
           "id": "XDj-dPaE-",
           "name": "600540-page-001 (2).jpg",
           "filePath": "../public/plasmic/wanga/images/_600540Page0012Jpg.jpeg"
+        },
+        {
+          "id": "ppjeCqxLp",
+          "name": "800932-page-001.jpg",
+          "filePath": "../public/plasmic/wanga/images/_800932Page001Jpg.jpeg"
         }
       ],
       "indirect": false,
@@ -9498,7 +9503,7 @@
         {
           "id": "PVJguPp4o5",
           "name": "Fetcher",
-          "componentImportPath": "@plasmicapp/data-sources"
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
       ],
       "globalContextsFilePath": ""
@@ -9524,6 +9529,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.186",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+  "cliVersion": "0.1.190",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.190/dist/plasmic.schema.json"
 }
