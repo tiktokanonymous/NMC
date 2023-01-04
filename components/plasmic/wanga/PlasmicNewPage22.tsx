@@ -74,7 +74,6 @@ function PlasmicNewPage22__RenderFunc(props: {
 
         props.args
       ),
-
     [props.args]
   );
 
@@ -97,7 +96,6 @@ function PlasmicNewPage22__RenderFunc(props: {
           property="og:title"
           content={PlasmicNewPage22.pageMetadata.title}
         />
-
         <meta
           key="twitter:title"
           name="twitter:title"
@@ -138,7 +136,7 @@ function PlasmicNewPage22__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_600462Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_8009141Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
@@ -167,7 +165,6 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicNewPage22__OverridesType,
   DescendantsType<T>
 >;
-
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
@@ -201,7 +198,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
           internalArgPropNames: PlasmicNewPage22__ArgProps,
           internalVariantPropNames: PlasmicNewPage22__VariantProps
         }),
-
       [props, nodeName]
     );
 
@@ -233,7 +229,7 @@ export const PlasmicNewPage22 = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "600462",
+      title: "800914",
       description: "",
       ogImageSrc: "",
       canonical: ""
