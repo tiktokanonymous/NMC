@@ -59,6 +59,14 @@ export interface DefaultNewPage11Props {
   className?: string;
 }
 
+const __wrapUserFunction =
+  globalThis.__PlasmicWrapUserFunction ?? ((loc, fn) => fn());
+const __wrapUserPromise =
+  globalThis.__PlasmicWrapUserPromise ??
+  (async (loc, promise) => {
+    await promise;
+  });
+
 function PlasmicNewPage11__RenderFunc(props: {
   variants: PlasmicNewPage11__VariantsArgs;
   args: PlasmicNewPage11__ArgsType;

@@ -159,7 +159,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@*", "@babel/parser@^7.1.0", "@babel/parser@^7.12.3", "@babel/parser@^7.16.0", "@babel/parser@^7.16.5":
+"@babel/parser@^7.12.3", "@babel/parser@^7.16.0", "@babel/parser@^7.16.5":
   version "7.16.6"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.16.6.tgz#8f194828193e8fa79166f34a4b4e52f3e769a314"
   integrity sha512-Gr86ujcNuPDnNOY8mi383Hvi8IYrJVJYuf3XcuBM/Dgd+bINn/7tHqsj+tKkoreMbmGsFLsltI/JJd8fOFWGDQ==
@@ -226,7 +226,7 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.12.1", "@babel/types@^7.16.0", "@babel/types@^7.3.0":
+"@babel/types@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.16.0.tgz#db3b313804f96aadd0b776c4823e127ad67289ba"
   integrity sha512-PJgg/k3SdLsGb3hhisFvtLOw5ts113klrpLuIPtCJIU+BB24fqq6lf8RWqKJEjzqXR9AEH1rIb5XTqwBHB+kQg==
@@ -480,16 +480,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plasmicapp/cli@^0.1.190":
-  version "0.1.190"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.190.tgz#9b628134b9a5fec22a599200096e470de116606a"
-  integrity sha512-sySaO2nIylmNYhOfXmz9v+OWwtAHc2t8JPqOXpEbYpxpifyCnvZfIosRm/1bZa5WOz2QoSi8CYfgGXTB/rVthw==
+"@plasmicapp/cli@^0.1.192":
+  version "0.1.192"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.192.tgz#4b6dd3437bc670ae06dae6b306c7d3d520fed25d"
+  integrity sha512-4kWN7WrvdPg8OYpMypidF6iQmcXlIffL1o36eDiJ7FkrzuOzIpCNOSSVvkYrBeCuP/4FwwVXUBSVPrg0I5LEMg==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/generator" "^7.12.1"
     "@babel/parser" "^7.12.3"
     "@babel/traverse" "^7.12.1"
-    "@plasmicapp/code-merger" "^0.0.33"
     "@sentry/node" "^5.19.2"
     axios "^0.21.1"
     chalk "^4.1.0"
@@ -515,24 +514,6 @@
     winston "^3.3.3"
     wrap-ansi "^7.0.0"
     yargs "^15.4.1"
-
-"@plasmicapp/code-merger@^0.0.33":
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/code-merger/-/code-merger-0.0.33.tgz#92d1f5b3dbe81b1a8b0e26a949d27d8619531e4c"
-  integrity sha512-FTO1MwoQ3s+Sh4Fqc8UJ0b1LZlv/0GidphucxvdDWB6zD98KhrTw3t38n8f4/cfw1SosTbd4uQ7Cn3z/P5Fc0Q==
-  dependencies:
-    "@babel/core" "^7.12.3"
-    "@babel/generator" "^7.12.1"
-    "@babel/parser" "^7.12.3"
-    "@babel/traverse" "^7.12.1"
-    "@babel/types" "^7.12.1"
-    "@types/babel__core" "^7.1.14"
-    "@types/babel__generator" "^7.6.2"
-    "@types/babel__parser" "^7.1.1"
-    "@types/babel__traverse" "^7.11.1"
-    diff "^4.0.2"
-    lodash "^4.17.19"
-    prettier "^2.0.5"
 
 "@plasmicapp/data-sources-context@0.1.2":
   version "0.1.2"
@@ -1054,46 +1035,6 @@
   integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
   dependencies:
     defer-to-connect "^1.0.1"
-
-"@types/babel__core@^7.1.14":
-  version "7.1.17"
-  resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.17.tgz#f50ac9d20d64153b510578d84f9643f9a3afbe64"
-  integrity sha512-6zzkezS9QEIL8yCBvXWxPTJPNuMeECJVxSOhxNY/jfq9LxOTHivaYTqr37n9LknWWRTIkzqH2UilS5QFvfa90A==
-  dependencies:
-    "@babel/parser" "^7.1.0"
-    "@babel/types" "^7.0.0"
-    "@types/babel__generator" "*"
-    "@types/babel__template" "*"
-    "@types/babel__traverse" "*"
-
-"@types/babel__generator@*", "@types/babel__generator@^7.6.2":
-  version "7.6.4"
-  resolved "https://registry.yarnpkg.com/@types/babel__generator/-/babel__generator-7.6.4.tgz#1f20ce4c5b1990b37900b63f050182d28c2439b7"
-  integrity sha512-tFkciB9j2K755yrTALxD44McOrk+gfpIpvC3sxHjRawj6PfnQxrse4Clq5y/Rq+G3mrBurMax/lG8Qn2t9mSsg==
-  dependencies:
-    "@babel/types" "^7.0.0"
-
-"@types/babel__parser@^7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@types/babel__parser/-/babel__parser-7.1.1.tgz#39b311e54697636b0b98127700b5f01f5e1e85f4"
-  integrity sha512-baSzIb0QQOUQSglfR9gwXVSbHH91YvY00C9Zjq6E7sPdnp8oyPyUsonIj3SF4wUl0s96vR/kyWeVv30gmM/xZw==
-  dependencies:
-    "@babel/parser" "*"
-
-"@types/babel__template@*":
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/@types/babel__template/-/babel__template-7.4.1.tgz#3d1a48fd9d6c0edfd56f2ff578daed48f36c8969"
-  integrity sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==
-  dependencies:
-    "@babel/parser" "^7.1.0"
-    "@babel/types" "^7.0.0"
-
-"@types/babel__traverse@*", "@types/babel__traverse@^7.11.1":
-  version "7.14.2"
-  resolved "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.14.2.tgz#ffcd470bbb3f8bf30481678fb5502278ca833a43"
-  integrity sha512-K2waXdXBi2302XUdcHcR1jCeU0LL4TD9HRs/gk0N2Xvrht+G/BfJa4QObBQZfhMdxiCpV3COl5Nfq4uKTeTnJA==
-  dependencies:
-    "@babel/types" "^7.3.0"
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -1964,11 +1905,6 @@ detect-file@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/detect-file/-/detect-file-1.0.0.tgz#f0d66d03672a825cb1b73bdb3fe62310c8e552b7"
   integrity sha1-8NZtA2cqglyxtzvbP+YjEMjlUrc=
-
-diff@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
-  integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
 diffie-hellman@^5.0.0:
   version "5.0.3"

@@ -57,6 +57,14 @@ export type PlasmicNewPage834__OverridesType = {
 
 export interface DefaultNewPage834Props {}
 
+const __wrapUserFunction =
+  globalThis.__PlasmicWrapUserFunction ?? ((loc, fn) => fn());
+const __wrapUserPromise =
+  globalThis.__PlasmicWrapUserPromise ??
+  (async (loc, promise) => {
+    await promise;
+  });
+
 function PlasmicNewPage834__RenderFunc(props: {
   variants: PlasmicNewPage834__VariantsArgs;
   args: PlasmicNewPage834__ArgsType;

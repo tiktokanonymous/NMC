@@ -57,6 +57,14 @@ export type PlasmicNewPage24__OverridesType = {
 
 export interface DefaultNewPage24Props {}
 
+const __wrapUserFunction =
+  globalThis.__PlasmicWrapUserFunction ?? ((loc, fn) => fn());
+const __wrapUserPromise =
+  globalThis.__PlasmicWrapUserPromise ??
+  (async (loc, promise) => {
+    await promise;
+  });
+
 function PlasmicNewPage24__RenderFunc(props: {
   variants: PlasmicNewPage24__VariantsArgs;
   args: PlasmicNewPage24__ArgsType;
@@ -74,6 +82,7 @@ function PlasmicNewPage24__RenderFunc(props: {
 
         props.args
       ),
+
     [props.args]
   );
 
@@ -96,6 +105,7 @@ function PlasmicNewPage24__RenderFunc(props: {
           property="og:title"
           content={PlasmicNewPage24.pageMetadata.title}
         />
+
         <meta
           key="twitter:title"
           name="twitter:title"
@@ -165,6 +175,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicNewPage24__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
@@ -198,6 +209,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
           internalArgPropNames: PlasmicNewPage24__ArgProps,
           internalVariantPropNames: PlasmicNewPage24__VariantProps
         }),
+
       [props, nodeName]
     );
 

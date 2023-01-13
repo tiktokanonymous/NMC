@@ -57,6 +57,14 @@ export type PlasmicNewPage26__OverridesType = {
 
 export interface DefaultNewPage26Props {}
 
+const __wrapUserFunction =
+  globalThis.__PlasmicWrapUserFunction ?? ((loc, fn) => fn());
+const __wrapUserPromise =
+  globalThis.__PlasmicWrapUserPromise ??
+  (async (loc, promise) => {
+    await promise;
+  });
+
 function PlasmicNewPage26__RenderFunc(props: {
   variants: PlasmicNewPage26__VariantsArgs;
   args: PlasmicNewPage26__ArgsType;
@@ -138,7 +146,7 @@ function PlasmicNewPage26__RenderFunc(props: {
             displayWidth={"323px" as const}
             loading={"lazy" as const}
             src={{
-              src: "/plasmic/wanga/images/_500368Page001Jpg.jpeg",
+              src: "/plasmic/wanga/images/_8013191Page001Jpg.jpeg",
               fullWidth: 2480,
               fullHeight: 3508,
               aspectRatio: undefined
@@ -233,7 +241,7 @@ export const PlasmicNewPage26 = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "500368",
+      title: "801319",
       description: "",
       ogImageSrc: "",
       canonical: ""
