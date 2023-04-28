@@ -480,18 +480,20 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plasmicapp/cli@^0.1.192":
-  version "0.1.192"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.192.tgz#4b6dd3437bc670ae06dae6b306c7d3d520fed25d"
-  integrity sha512-4kWN7WrvdPg8OYpMypidF6iQmcXlIffL1o36eDiJ7FkrzuOzIpCNOSSVvkYrBeCuP/4FwwVXUBSVPrg0I5LEMg==
+"@plasmicapp/cli@^0.1.269":
+  version "0.1.269"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.269.tgz#a07dc8221e5f929c796edb2feabd2c94ef100e5b"
+  integrity sha512-VUQmjPJY+YQeKGhs349bOYAiKFybAT2SnSIOc6KLJMNQkqfTCFMsClbI3ZSMFqYCCxCDKD7pqFfDstTG5SA59w==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/generator" "^7.12.1"
     "@babel/parser" "^7.12.3"
     "@babel/traverse" "^7.12.1"
     "@sentry/node" "^5.19.2"
+    "@supercharge/promise-pool" "^2.4.0"
     axios "^0.21.1"
     chalk "^4.1.0"
+    cli-progress "^3.12.0"
     fast-glob "^3.2.4"
     findup-sync "^4.0.0"
     fs "^0.0.1-security"
@@ -500,6 +502,7 @@
     latest-version "^5.1.0"
     lodash "^4.17.19"
     moment "^2.27.0"
+    node-fetch "^2"
     open "^8.0.9"
     pako "^1.0.11"
     path "^0.12.7"
@@ -515,28 +518,45 @@
     wrap-ansi "^7.0.0"
     yargs "^15.4.1"
 
-"@plasmicapp/data-sources-context@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/data-sources-context/-/data-sources-context-0.1.2.tgz#4041a9f2b854af36595824c95347c08739763aaa"
-  integrity sha512-N48qP44AFkQMpcLbBBDHbWxMYZKGcjxrb5qNne2765NZoGixEwbwlI9wjoe7Onal0Ctk4v0V2ritYFmwG3BSXg==
+"@plasmicapp/data-sources-context@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/data-sources-context/-/data-sources-context-0.1.11.tgz#30765e1eff677ac06d0ec6e8d0cecdbf8759f9bc"
+  integrity sha512-JFrtPCjdLIRnmZujWFuh025Id4bgd2fwllOOm2qMo4yoSm4oGDg6/2rRpD0qRC6DiN47RGt8tDR+ancYboxPjw==
 
-"@plasmicapp/data-sources@0.1.22":
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/data-sources/-/data-sources-0.1.22.tgz#3735713bb9adb96f163bee29d38a11f62fe1b2bc"
-  integrity sha512-zWNP//otWcRbih9INvYanaPoYy1jqgLNO0FbzE8N/vn/w3Im87ZWUDvRV9WBjU9GVdbotq75qTmZlsi7+TyuBg==
+"@plasmicapp/data-sources@0.1.72":
+  version "0.1.72"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/data-sources/-/data-sources-0.1.72.tgz#be0052da8aaa6717735ee5cf05dc2a19ba1636c8"
+  integrity sha512-k7b7JSE8rrWDkTwcLnXTQbKpDA5+qw7z8g+SPp4cUOkXXTrgsEETq9zj9ErVMDmpBnYz4ruKkr7/KbzuPixlnA==
   dependencies:
-    "@plasmicapp/data-sources-context" "0.1.2"
-    "@plasmicapp/host" "1.0.92"
-    "@plasmicapp/query" "0.1.58"
-    isomorphic-unfetch "^3.1.0"
+    "@plasmicapp/data-sources-context" "0.1.11"
+    "@plasmicapp/host" "1.0.132"
+    "@plasmicapp/isomorphic-unfetch" "^1.0.1"
+    "@plasmicapp/query" "0.1.63"
+    fast-stringify "^2.0.0"
 
-"@plasmicapp/host@1.0.92", "@plasmicapp/host@^1.0.92":
+"@plasmicapp/host@1.0.132":
+  version "1.0.132"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-1.0.132.tgz#810b3a71ef1d86b3d809f4b4af8fe99bcaa58138"
+  integrity sha512-ZppZJQpxuGgLAaXb3fZt4hUj8ZWiMbOc0G5+g0up3A+nmCq5wr9zJTVZRDb7TtkQEehSyqxHEgH8TSjibHN1bg==
+  dependencies:
+    "@plasmicapp/query" "0.1.63"
+    window-or-global "^1.0.1"
+
+"@plasmicapp/host@^1.0.92":
   version "1.0.92"
   resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-1.0.92.tgz#04165c682bb65ec807ef93e0301aa4f13d0617a5"
   integrity sha512-7+Qd4YHTze4/DCwiwmdOoBJKYo3gu/AfgTJTMYWDTqG5M8oIMSG43oNwVKb4+B1tcjARMGmiYUNWGwIreo++2w==
   dependencies:
     "@plasmicapp/query" "0.1.58"
     window-or-global "^1.0.1"
+
+"@plasmicapp/isomorphic-unfetch@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/isomorphic-unfetch/-/isomorphic-unfetch-1.0.1.tgz#e2dfdc8d23d9d1c82f5596986fe8c09013ec8eec"
+  integrity sha512-V1PBEQjypQ47zO0ggI7B46o0WL2I4y5nmv4rdCGVA9oVCAHHPt7kcOxDak9cj/ryQocLEU8YC6Uwqz+hYL5YAw==
+  dependencies:
+    node-fetch "^2.6.1"
+    unfetch "^4.2.0"
 
 "@plasmicapp/query@0.1.58":
   version "0.1.58"
@@ -545,15 +565,22 @@
   dependencies:
     swr "^1.0.0"
 
-"@plasmicapp/react-web@^0.2.136":
-  version "0.2.136"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/react-web/-/react-web-0.2.136.tgz#d0ca0d5db17740a826557ed8fe7d292ff418d3d2"
-  integrity sha512-Dtt8lehckyGQXNsno8WW3zNgJAogwQFbEoCPXWHTrrKk739dAnIfO0hW57Da0IZ5lsRyRQPLnvziLDOL7mnuCw==
+"@plasmicapp/query@0.1.63":
+  version "0.1.63"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/query/-/query-0.1.63.tgz#efd8f46eb4f48a0a255d733b63788e9644b47ad1"
+  integrity sha512-V3UdqRZLdnBopQ4RqclUV0jZYDhhe2yB2UiaFZdfhGfAPL0jCzBMpcDwj9XqOHZ0CjvSAkJgxYfRUdIAlDNUzw==
   dependencies:
-    "@plasmicapp/data-sources" "0.1.22"
-    "@plasmicapp/data-sources-context" "0.1.2"
-    "@plasmicapp/host" "1.0.92"
-    "@plasmicapp/query" "0.1.58"
+    swr "^1.0.0"
+
+"@plasmicapp/react-web@^0.2.204":
+  version "0.2.204"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/react-web/-/react-web-0.2.204.tgz#5539ae8af92d9991c02a94878fc5550a1ed6bbc9"
+  integrity sha512-V/08e+sJLKiiaDq47yn+tgxA1hRZ0pFeq/I3tOENjn6JvvVWxi2VihY/CyeuS0jjzCh8reG4mRhjA6IC7FJYgg==
+  dependencies:
+    "@plasmicapp/data-sources" "0.1.72"
+    "@plasmicapp/data-sources-context" "0.1.11"
+    "@plasmicapp/host" "1.0.132"
+    "@plasmicapp/query" "0.1.63"
     "@react-aria/checkbox" "^3.5.0"
     "@react-aria/focus" "^3.7.0"
     "@react-aria/interactions" "^3.10.0"
@@ -575,7 +602,6 @@
     classnames "^2.2.6"
     clone "^2.1.2"
     dlv "^1.1.3"
-    dset "^3.1.2"
     fast-deep-equal "^3.1.3"
     valtio "^1.6.3"
 
@@ -1028,6 +1054,11 @@
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
   integrity sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==
+
+"@supercharge/promise-pool@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@supercharge/promise-pool/-/promise-pool-2.4.0.tgz#6050eea8c2d7f92ddd4ddc582ee328b15c034ad3"
+  integrity sha512-O9CMipBlq5OObdt1uKJGIzm9cdjpPWfj+a+Zw9EgWKxaMNHKC7EU7X9taj3H0EGQNLOSq2jAcOa3EzxlfHsD6w==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -1585,6 +1616,13 @@ cli-cursor@^3.1.0:
   dependencies:
     restore-cursor "^3.1.0"
 
+cli-progress@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/cli-progress/-/cli-progress-3.12.0.tgz#807ee14b66bcc086258e444ad0f19e7d42577942"
+  integrity sha512-tRkV3HJ1ASwm19THiiLIXLO7Im7wlTuKnvkYaTkyoAPefqjNg7W7DHKUlGRxy9vxDvbyCYQkQozvptuMkGCg8A==
+  dependencies:
+    string-width "^4.2.3"
+
 cli-width@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-3.0.0.tgz#a2f48437a2caa9a22436e794bf071ec9e61cedf6"
@@ -1952,11 +1990,6 @@ dot-prop@^5.2.0:
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
   dependencies:
     is-obj "^2.0.0"
-
-dset@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/dset/-/dset-3.1.2.tgz#89c436ca6450398396dc6538ea00abc0c54cd45a"
-  integrity sha512-g/M9sqy3oHe477Ar4voQxWtaPIFw1jTdKZuomOjhCcBx9nHUNn0pu6NopuFFrTh/TRZIKEj+76vLWFu9BNKk+Q==
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -2364,6 +2397,11 @@ fast-levenshtein@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fast-stringify@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/fast-stringify/-/fast-stringify-2.0.0.tgz#bb5dd243fce053e91d04f68e595405ca656167e4"
+  integrity sha512-+b+ki4C5K/tw+RmyiehpRzHjWmeqPb3Wn0whMsi+JPrYjzdapybfGejhCTblfLBErPMRSToYXDObawLG9BN78A==
 
 fastq@^1.6.0:
   version "1.13.0"
@@ -3090,14 +3128,6 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-isomorphic-unfetch@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/isomorphic-unfetch/-/isomorphic-unfetch-3.1.0.tgz#87341d5f4f7b63843d468438128cb087b7c3e98f"
-  integrity sha512-geDJjpoZ8N0kWexiwkX8F9NkTsXhetLPVbZFQ+JTW239QNOwvB0gniuR1Wc6f0AMTn7/mFGyXvHTifrCp/GH8Q==
-  dependencies:
-    node-fetch "^2.6.1"
-    unfetch "^4.2.0"
-
 jest-worker@27.0.0-next.5:
   version "27.0.0-next.5"
   resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-27.0.0-next.5.tgz#5985ee29b12a4e191f4aae4bb73b97971d86ec28"
@@ -3459,6 +3489,13 @@ node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+
+node-fetch@^2:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.9.tgz#7c7f744b5cc6eb5fd404e0c7a9fec630a55657e6"
+  integrity sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-fetch@^2.6.1:
   version "2.6.7"
@@ -4295,7 +4332,7 @@ string-hash@1.1.3:
   resolved "https://registry.yarnpkg.com/string-hash/-/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
   integrity sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
 
-string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0:
+string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
